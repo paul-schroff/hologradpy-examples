@@ -1,0 +1,14 @@
+**/__pycache__/
+.idea/
+.vscode/
+
+# Sphinx documentation
+docs/_build/
+docs/sg_execution_times.rst
+docs/auto_examples/*/searchindex.*
+
+# Local scripts and data
+examples/dev_scripts/
+examples/data/
+examples/calibration/data/
+examples/**/*.gif

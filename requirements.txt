@@ -1,0 +1,9 @@
+# The package commit used for the gallery.
+hologradpy @ git+https://github.com/paul-schroff/hologradpy@aa54405b68806131b653b88dc3821f5f6c38a96a
+
+# Building the documentation
+sphinx>=7.2
+sphinx-gallery>=0.21
+furo>=2024.1.29
+sphinx-design>=0.6
+sphinx-copybutton>=0.5
