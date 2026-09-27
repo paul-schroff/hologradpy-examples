@@ -328,9 +328,7 @@ image_grid(
 # %%
 # Generating the animation for the documentation's front page
 # -----------------------------------------------------------
-# The path is relative to the working directory, which the gallery runner sets to this
-# script's directory. The HoloGradPy README and landing page show a copy of this GIF,
-# updated by hand.
+# The path is relative to the working directory.
 GIF_PATH = Path("../../docs/_static/top_hat_beam_shaping.gif")
 
 frames = [np.asarray(absolute.visualization_data.initial_intensity)]

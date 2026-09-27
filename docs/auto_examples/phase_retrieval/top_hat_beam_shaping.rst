@@ -174,6 +174,13 @@ The SLM and the incident Gaussian beam
 
 
 
+.. rst-class:: sphx-glr-script-out
+
+ .. code-block:: none
+
+    hologradpy/fourier_transforms/shear.py:63: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+    Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:823.)
+
 
 
 
@@ -490,15 +497,13 @@ Compare the two
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 329-334
+.. GENERATED FROM PYTHON SOURCE LINES 329-332
 
 Generating the animation for the documentation's front page
 -----------------------------------------------------------
-The path is relative to the working directory, which the gallery runner sets to this
-script's directory. The HoloGradPy README and landing page show a copy of this GIF,
-updated by hand.
+The path is relative to the working directory.
 
-.. GENERATED FROM PYTHON SOURCE LINES 334-425
+.. GENERATED FROM PYTHON SOURCE LINES 332-423
 
 .. code-block:: Python
 
@@ -610,7 +615,7 @@ updated by hand.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 43.019 seconds)
+   **Total running time of the script:** (1 minutes 6.739 seconds)
 
 
 .. _sphx_glr_download_auto_examples_phase_retrieval_top_hat_beam_shaping.py:
